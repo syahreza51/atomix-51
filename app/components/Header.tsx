@@ -8,39 +8,44 @@ export default function Header(): React.JSX.Element {
         <div className="container mx-auto max-w-6xl flex items-center justify-between h-full">
           <Link
             href="/"
-            className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
+            className="flex items-center gap-3 hover:opacity-90 transition-opacity"
           >
-            <Image
-              src="/logo/logo.png"
-              alt="Logo"
-              width={500}
-              height={500}
-              style={{ width: "80px", height: "80px" }}
-            />
+           
+            <span className="text-lg font-bold text-white hidden sm:block">
+              Atomix Dev
+            </span>
           </Link>
-          <ul className="flex items-center gap-8 list-none m-0 p-0">
-            <li className="m-0 p-0">
+          <ul className="flex items-center gap-6 sm:gap-8 list-none m-0 p-0">
+            <li>
               <Link
                 href="#home"
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+                className="text-white hover:text-purple-400 transition-colors text-sm sm:text-base font-normal"
               >
-                Home
+                Beranda
               </Link>
             </li>
-            <li className="m-0 p-0">
+            <li>
               <Link
                 href="#about"
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+                className="text-white hover:text-purple-400 transition-colors text-sm sm:text-base font-normal"
               >
-                About
+                Tentang
               </Link>
             </li>
-            <li className="m-0 p-0">
+            <li>
               <Link
-                href="#lab"
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+                href="#clients"
+                className="text-white hover:text-purple-400 transition-colors text-sm sm:text-base font-normal"
               >
-                Lab
+                Klien
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#contact"
+                className="text-white hover:text-purple-400 transition-colors text-sm sm:text-base font-normal"
+              >
+                Kontak
               </Link>
             </li>
           </ul>

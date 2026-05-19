@@ -5,9 +5,9 @@ import { useState, useEffect } from "react";
 
 export default function Banner(): React.JSX.Element {
   const texts = [
-    "Software Engineer",
-    "UI/UX Designer",
-    "React Native Developer",
+    "Web Development",
+    "Enterprise Systems",
+    "Digital Transformation",
   ];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
@@ -71,16 +71,16 @@ export default function Banner(): React.JSX.Element {
                   />
                   <div className="relative">
                     <p className="text-white text-lg whitespace-nowrap">
-                      Hello! I Am{" "}
-                      <span className="text-purple-400">Syahreza Shaputra</span>
+                      Selamat Datang di{" "}
+                      <span className="text-purple-400">Atomix Dev</span>
                     </p>
                   </div>
                   <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
                 </div>
               </div>
               <Image
-                src="/assets/me.png"
-                alt="Syahreza Shaputra - Software Engineer and Designer"
+                src="/logo/logo.png"
+                alt="Atomix Dev IT Solution"
                 width={300}
                 height={300}
                 className=" max-w-md absolute"
@@ -89,7 +89,7 @@ export default function Banner(): React.JSX.Element {
               />
               <Image
                 src="/assets/me-glow.png"
-                alt="Syahreza Shaputra - Software Engineer and Designer"
+                alt="Atomix Dev IT Solution"
                 width={300}
                 height={300}
                 className="max-w-md "
@@ -116,17 +116,18 @@ export default function Banner(): React.JSX.Element {
               />
               <div style={{ bottom: 40, position: "relative" }}>
                 <p className="text-white text-lg">
-                  Hello! I Am{" "}
-                  <span className="text-purple-400">Syahreza Shaputra</span>
+                  Selamat Datang di{" "}
+                  <span className="text-purple-400">Atomix Dev</span>
                 </p>
               </div>
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
             <div className="">
-              <p className="text-2xl"> A Designer who </p>
+              <p className="text-2xl">Solusi IT yang</p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
-                Judges a book
-                <br /> by its{" "}
+                Membangun
+                <br />
+                masa depan{" "}
                 <span className="relative inline-block">
                   <Image
                     src="/assets/circle.png"
@@ -136,37 +137,47 @@ export default function Banner(): React.JSX.Element {
                     className="absolute mt-2"
                   />
                   <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
-                    cover
+                    digital
                   </span>
                 </span>
-                ...
+                Anda
               </h1>
-              <p className="text-md text-white/80">
-                Because if the cover does not impress you what else can?
+              <p className="text-md text-white/80 mt-2">
+                Atomix Dev IT Solution — mitra teknologi untuk organisasi,
+                pemerintahan, dan korporasi.
               </p>
             </div>
           </div>
         </div>
         <div className="space-y-3 pt-15 text-center lg:text-left">
           <p className="text-5xl text-white font-bold">
-            I&apos;m a {displayedText}
+            Spesialis {displayedText}
             <span className="animate-pulse">|</span>
           </p>
-          <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
-            <span>Currently, I&apos;m a Software Engineer at</span>
-            <span className="flex items-center gap-2">
-              <span className="text-blue-400 font-semibold">
-                Asaba Innotech,
-              </span>
-            </span>
+          <p className="text-lg lg:text-xl text-white/90 tracking-wide">
+            Pengembangan aplikasi web, sistem enterprise, dan infrastruktur
+            digital berperforma tinggi.
           </p>
-          <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            Technical Lead Frontend with a 2-year track record of building
-            high-performance web applications. I specialize in architecting
-            delightful digital products that align technical excellence with
-            user-centric design, driving both engineering quality and strategic
-            business growth
+          <p className="text-lg text-white/80 max-w-2xl mt-8 mx-auto lg:mx-0">
+            Kami telah dipercaya oleh instansi pemerintah, organisasi politik,
+            startup teknologi, hingga perusahaan korporat untuk merancang,
+            membangun, dan mengelola platform digital yang aman, scalable, dan
+            berorientasi bisnis.
           </p>
+          <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
+            <a
+              href="#clients"
+              className="px-6 py-3 rounded-full bg-purple-600 hover:bg-purple-500 text-white font-medium transition-colors"
+            >
+              Lihat Klien Kami
+            </a>
+            <a
+              href="#contact"
+              className="px-6 py-3 rounded-full border border-purple-500/50 hover:border-purple-400 text-white font-medium transition-colors"
+            >
+              Hubungi Kami
+            </a>
+          </div>
         </div>
       </div>
     </section>

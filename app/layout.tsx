@@ -12,36 +12,37 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Syahreza Shaputra - Software Engineer & UI/UX Designer",
+  title: "Atomix Dev IT Solution — Pengembangan Sistem Digital",
   description:
-    "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+    "Atomix Dev IT Solution — perusahaan pengembangan solusi teknologi informasi. Web portal, sistem enterprise, command center, dan infrastruktur digital untuk organisasi, pemerintahan, dan korporasi.",
   keywords: [
-    "Syahreza Shaputra",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
-    "Portfolio",
+    "Atomix Dev",
+    "IT Solution",
+    "Pengembangan Web",
+    "Sistem Enterprise",
+    "Laravel",
+    "React",
+    "Next.js",
+    "Software House Indonesia",
+    "Company Profile",
   ],
-  authors: [{ name: "Syahreza Shaputra" }],
-  creator: "Syahreza Shaputra",
-  publisher: "Syahreza Shaputra",
+  authors: [{ name: "Atomix Dev IT Solution" }],
+  creator: "Atomix Dev IT Solution",
+  publisher: "Atomix Dev IT Solution",
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "id_ID",
     url: "https://atomix51.com",
-    title: "Syahreza Shaputra - Software Engineer & UI/UX Designer",
+    title: "Atomix Dev IT Solution — Pengembangan Sistem Digital",
     description:
-      "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Syahreza Shaputra Portfolio",
+      "Mitra teknologi untuk organisasi, pemerintahan, dan korporasi. Portofolio klien: KPAM, Partai Golkar, Bareskrim Polri, Moladin, PT Riksa Jaya Swastika.",
+    siteName: "Atomix Dev IT Solution",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Syahreza Shaputra - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Atomix Dev IT Solution",
+    description:
+      "Pengembangan web portal, sistem enterprise, dan infrastruktur digital berperforma tinggi.",
   },
   robots: {
     index: true,
@@ -68,7 +69,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <head>
         <link rel="canonical" href="https://atomix51.com" />
       </head>

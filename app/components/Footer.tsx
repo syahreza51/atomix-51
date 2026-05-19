@@ -3,27 +3,26 @@ import Image from "next/image";
 
 export default function Footer(): React.JSX.Element {
   return (
-    <footer id="contact" className="py-10  px-6 border-t border-white/10">
+    <footer id="contact" className="py-10 px-6 border-t border-white/10">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
+          <p className="text-purple-400 text-lg font-medium mb-2">Kontak</p>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-            Contact
+            Hubungi Atomix Dev
           </h2>
           <p className="text-md text-white/80 max-w-2xl mx-auto mb-8">
-            Currently seeking opportunities to drive technical excellence in
-            teams that value high-performance engineering and user-centric
-            design. I’m ready to bring my experience in frontend architecture to
-            your next big challenge. Let’s connect.
+            Siap membantu proyek digital Anda — dari konsultasi, pengembangan
+            sistem, hingga infrastruktur teknologi. Mari diskusikan kebutuhan IT
+            organisasi atau bisnis Anda bersama kami.
           </p>
           <a
             href="mailto:syahrezashaputra51@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors"
           >
-            syahrezashaputra51@gmail.com
+            dev@atomix51.site / syahrezashaputra51@gmail.com
           </a>
         </div>
 
-        {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
           <Link
             href="https://www.instagram.com/syahrezash51/"
@@ -56,7 +55,7 @@ export default function Footer(): React.JSX.Element {
             </svg>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/in/mochammad-syahreza-shaputra-322887155/"
+            href="https://www.linkedin.com/in/mochammad-syahreza-shaputra-322887155/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -74,7 +73,8 @@ export default function Footer(): React.JSX.Element {
 
         <div className="text-center mt-12 pt-8 border-t border-white/10">
           <p className="text-white/60 text-sm">
-            © {new Date().getFullYear()} Syahreza Shaputra. All rights reserved.
+            © {new Date().getFullYear()} Atomix Dev IT Solution. All rights
+            reserved.
           </p>
         </div>
       </div>
